@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: lime;
+}
+
+a {
+    font-size: 50px;
+    color: lime;
+    border: 3px;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: cyan;
+
+}
+
+a:hover {
+    color: red;
+    border-color: red;
+
+}
+
+h1 {
+color: aqua;
+border: 3px;
+border-style:solid;
+border-radius: 5px;
+
+}
+
+h1:hover {
+    color: lime;
+    border: 3px;
+    border-style:solid;
+    border-radius: 25px;
+    
+    }
+
+h2 {
+    color: blue;
+    border: 3px;
+    border-style:dashed;
+}
+
+h3 {
+color:blueviolet ;
+border: 3px;
+border-style:dotted;
+}
+
+h4 {
+color: brown;
+border: 3px;
+border-style:double;
+}
+
+h5 {
+ color: blanchedalmond;
+ border: 3px;
+    border-style:groove;
+}
+
+h6 {
+color: coral;
+border: 3px;
+border-style:ridge;
+}
+
+.words {
+    border: 5px;
+    border-style:solid;
+}
+
+.words:hover {
+    border: 5px;
+    border-style:solid;
+    border-color: brown;
+}
+
+.notwords {
+    border: 5px;
+    border-style:solid;
+}
+
+.notwords:hover {
+    border: 5px;
+    border-style:solid;
+    border-color: red;
+
+}

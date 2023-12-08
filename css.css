@@ -41,11 +41,23 @@ h2 {
     border-style:dashed;
 }
 
+h2:hover {
+    color: red;
+    border: 3px;
+    border-style:ridge;
+}
+
 h3 {
 color:blueviolet ;
 border: 3px;
 border-style:dotted;
 }
+
+h3:hover {
+    color:aquamarine;
+    border: 3px;
+    border-style:outset;
+    }
 
 h4 {
 color: brown;
@@ -53,17 +65,35 @@ border: 3px;
 border-style:double;
 }
 
+h4:hover {
+    color: darkviolet;
+    border: 3px;
+    border-style:groove;
+    }
+
 h5 {
  color: blanchedalmond;
  border: 3px;
     border-style:groove;
 }
 
+h5:hover {
+    color:cadetblue;
+    border: 3px;
+       border-style:inherit;
+   }
+
 h6 {
 color: coral;
 border: 3px;
 border-style:ridge;
 }
+
+h6:hover {
+    color:darkcyan;
+    border: 3px;
+    border-style:hidden;
+    }
 
 .words {
     border: 5px;
@@ -86,4 +116,27 @@ border-style:ridge;
     border-style:solid;
     border-color: red;
 
+}
+
+
+button {
+    color: lime;
+    background-color: black;
+    border: 5px;
+    border-color: lime;
+    border-style:double;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 100px;
+}
+
+button:hover {
+    color: rgb(0, 255, 234);
+    background-color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(255, 0, 179);
+    border-style:dotted;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 100px;
 }
